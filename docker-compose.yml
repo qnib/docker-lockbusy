@@ -1,0 +1,6 @@
+lookbusy:
+    image: qnib/lookbusy
+    privileged: true
+    environment:
+     - LOOKBUSY_CPU_MODE=curve
+     - LOOKBUSY_CPU_UTIL=10-20
